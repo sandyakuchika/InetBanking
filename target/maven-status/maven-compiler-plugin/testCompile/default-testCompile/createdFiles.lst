@@ -1,0 +1,16 @@
+pageobjects\AddAccountPage.class
+utilities\Reporting.class
+pageobjects\EditAccountPage.class
+pageobjects\BasePage.class
+pageobjects\DeleteAccountPage.class
+testdata\CustomerTestData.class
+pageobjects\DeleteCustomerPage.class
+testcases\BaseTest.class
+utilities\ExtentReportManager.class
+pageobjects\EditCustomerPage.class
+testcases\TC_002_AccountTest.class
+pageobjects\AddCustomerPage.class
+utilities\SendEmail.class
+pageobjects\LoginPage.class
+utilities\CaptureLogs.class
+testcases\TC_001_CustomerTest.class

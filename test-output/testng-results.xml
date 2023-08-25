@@ -2,29 +2,25 @@
 <testng-results ignored="3" total="7" passed="0" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-17T15:13:20 SGT" name="Suite" finished-at="2023-08-17T15:14:04 SGT" duration-ms="44485">
+  <suite started-at="2023-08-25T17:07:16 SGT" name="Suite" finished-at="2023-08-25T17:08:10 SGT" duration-ms="54965">
     <groups>
     </groups>
-    <test started-at="2023-08-17T15:13:20 SGT" name="Test" finished-at="2023-08-17T15:14:04 SGT" duration-ms="44485">
+    <test started-at="2023-08-25T17:07:16 SGT" name="Test" finished-at="2023-08-25T17:08:10 SGT" duration-ms="54965">
       <class name="testcases.TC_002_AccountTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-17T15:13:45 SGT" name="setUp" finished-at="2023-08-17T15:13:50 SGT" duration-ms="4983" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-25T17:07:50 SGT" name="setUp" finished-at="2023-08-25T17:07:55 SGT" duration-ms="5029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testAddAccount()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-17T15:13:50 SGT" name="testAddAccount" finished-at="2023-08-17T15:13:53 SGT" duration-ms="2583" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
+        <test-method signature="testAddAccount()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-25T17:07:55 SGT" name="testAddAccount" finished-at="2023-08-25T17:07:58 SGT" duration-ms="2760" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Keys to send should be a not null CharSequence]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:97)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-at pageobjects.AddAccountPage.setCustomerId(AddAccountPage.java:39)
-at testcases.TC_002_AccountTest.testAddAccount(TC_002_AccountTest.java:30)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testcases.TC_002_AccountTest.testAddAccount(TC_002_AccountTest.java:28)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -53,19 +49,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-17T15:13:53 SGT" name="tearDown" finished-at="2023-08-17T15:13:54 SGT" duration-ms="1324" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-25T17:07:59 SGT" name="tearDown" finished-at="2023-08-25T17:08:00 SGT" duration-ms="1363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-17T15:13:54 SGT" name="setUp" finished-at="2023-08-17T15:14:00 SGT" duration-ms="5611" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-25T17:08:00 SGT" name="setUp" finished-at="2023-08-25T17:08:05 SGT" duration-ms="5126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testEditAccount()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-17T15:14:00 SGT" name="testEditAccount" finished-at="2023-08-17T15:14:03 SGT" duration-ms="2868" status="FAIL">
+        <test-method signature="testEditAccount()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-25T17:08:05 SGT" name="testEditAccount" finished-at="2023-08-25T17:08:09 SGT" duration-ms="3713" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Keys to send should be a not null CharSequence]]>
@@ -111,37 +107,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEditAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-17T15:14:03 SGT" name="tearDown" finished-at="2023-08-17T15:14:04 SGT" duration-ms="1317" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_002_AccountTest@771a660]" started-at="2023-08-25T17:08:09 SGT" name="tearDown" finished-at="2023-08-25T17:08:10 SGT" duration-ms="1317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.TC_002_AccountTest -->
       <class name="testcases.TC_001_CustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-17T15:13:20 SGT" name="setUp" finished-at="2023-08-17T15:13:28 SGT" duration-ms="7907" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-25T17:07:16 SGT" name="setUp" finished-at="2023-08-25T17:07:24 SGT" duration-ms="7774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addNewCustomer()[pri:3, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-17T15:13:28 SGT" name="addNewCustomer" finished-at="2023-08-17T15:13:33 SGT" duration-ms="5113" status="FAIL">
+        <test-method signature="addNewCustomer()[pri:3, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-25T17:07:24 SGT" name="addNewCustomer" finished-at="2023-08-25T17:07:34 SGT" duration-ms="9865" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : please fill all fields}
-  (Session info: chrome=115.0.5790.171): please fill all fields
+  (Session info: chrome=116.0.5845.111): please fill all fields
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e9a2ba7f9641b0dab98841e6335b43a, findElements {using=xpath, value=//label[contains(@id,'message') and contains(@style, 'visible')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:2644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2644/devtool..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e9a2ba7f9641b0dab98841e6335b43a]]>
+Command: [e80583006289966b11cb1892a4b1bbd7, findElements {using=xpath, value=//label[contains(@id,'message') and contains(@style, 'visible')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7792/devtool..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e80583006289966b11cb1892a4b1bbd7]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : please fill all fields}
-  (Session info: chrome=115.0.5790.171): please fill all fields
+  (Session info: chrome=116.0.5845.111): please fill all fields
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9e9a2ba7f9641b0dab98841e6335b43a, findElements {using=xpath, value=//label[contains(@id,'message') and contains(@style, 'visible')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:2644}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:2644/devtool..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e9a2ba7f9641b0dab98841e6335b43a
+Command: [e80583006289966b11cb1892a4b1bbd7, findElements {using=xpath, value=//label[contains(@id,'message') and contains(@style, 'visible')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:7792}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:7792/devtool..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e80583006289966b11cb1892a4b1bbd7
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
@@ -185,15 +181,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-17T15:13:34 SGT" name="tearDown" finished-at="2023-08-17T15:13:35 SGT" duration-ms="1340" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-25T17:07:34 SGT" name="tearDown" finished-at="2023-08-25T17:07:35 SGT" duration-ms="1396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-17T15:13:35 SGT" name="setUp" finished-at="2023-08-17T15:13:40 SGT" duration-ms="5421" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-25T17:07:35 SGT" name="setUp" finished-at="2023-08-25T17:07:42 SGT" duration-ms="6461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="editCustomerTest()[pri:4, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-17T15:13:40 SGT" name="editCustomerTest" finished-at="2023-08-17T15:13:43 SGT" duration-ms="3014" status="FAIL">
+        <test-method signature="editCustomerTest()[pri:4, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-25T17:07:42 SGT" name="editCustomerTest" finished-at="2023-08-25T17:07:48 SGT" duration-ms="6593" status="FAIL">
           <exception class="java.lang.IllegalArgumentException">
             <message>
               <![CDATA[Keys to send should be a not null CharSequence]]>
@@ -205,7 +201,7 @@ at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethod
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
 at jdk.proxy2/jdk.proxy2.$Proxy17.sendKeys(Unknown Source)
-at pageobjects.EditCustomerPage.setCustId(EditCustomerPage.java:67)
+at pageobjects.EditCustomerPage.setCustId(EditCustomerPage.java:66)
 at testcases.TC_001_CustomerTest.editCustomerTest(TC_001_CustomerTest.java:127)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
@@ -239,7 +235,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editCustomerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-17T15:13:44 SGT" name="tearDown" finished-at="2023-08-17T15:13:45 SGT" duration-ms="1377" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC_001_CustomerTest@53ce1329]" started-at="2023-08-25T17:07:49 SGT" name="tearDown" finished-at="2023-08-25T17:07:50 SGT" duration-ms="1395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

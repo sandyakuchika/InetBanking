@@ -87,7 +87,7 @@ public class TC_001_CustomerTest extends BaseTest {
 		addNew.setTxtState("AP");
 		String randomString = RandomStringUtils.randomAlphanumeric(10);
 		addNew.setTxtEmailId(randomString + "@gmail.com");
-		addNew.setTxtTelePhoneNo("0000qwq00");
+		addNew.setTxtTelePhoneNo("000000");
 		addNew.setTxtPassword("password");
 
 		addNew.setBtnSubmit();

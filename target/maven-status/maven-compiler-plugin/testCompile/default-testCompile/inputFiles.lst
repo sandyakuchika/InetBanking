@@ -1,0 +1,16 @@
+D:\Ravi\sandya\WS\InetBanking\src\test\java\pageobjects\EditAccountPage.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\pageobjects\LoginPage.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\utilities\CaptureLogs.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\testdata\CustomerTestData.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\pageobjects\BasePage.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\testcases\TC_001_CustomerTest.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\utilities\SendEmail.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\utilities\ExtentReportManager.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\testcases\TC_002_AccountTest.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\pageobjects\DeleteAccountPage.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\testcases\BaseTest.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\pageobjects\DeleteCustomerPage.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\utilities\Reporting.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\pageobjects\AddAccountPage.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\pageobjects\AddCustomerPage.java
+D:\Ravi\sandya\WS\InetBanking\src\test\java\pageobjects\EditCustomerPage.java

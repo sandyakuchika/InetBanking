@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testcases.TC_001_CustomerTest">
+        <methods>
+          <include name="addNewCustomer"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="editCustomerTest"/>
+        </methods>
+      </class> <!-- testcases.TC_001_CustomerTest -->
+      <class name="testcases.TC_002_AccountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testAddAccount"/>
+          <include name="tearDown"/>
+          <include name="testEditAccount"/>
+        </methods>
+      </class> <!-- testcases.TC_002_AccountTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
